@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    background-color: #ff787b;
+
+}
+
+/*Header*/
+header{
+    text-align: center;
+    margin:  auto;
+    color: white;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/*Main*/
+main{
+    background-color: #2e3240 ;
+    color: white;
+    
+}
+h2{
+    margin-left: 10%;
+    padding-top: 1em;
+}
+
+div{
+    margin-top: 1.5em;
+    margin-left: 10%;
+    
+}
+
+p{
+    font-size: 20px;
+    margin-bottom: .5em;
+    
+}
+
+label{
+    font-size: 18px;
+}
+
+input{
+    margin-left: 1.5rem;
+    margin-top: 1em;
+}
+
+footer{
+    margin-top: 4rem;
+}
