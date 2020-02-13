@@ -8,7 +8,7 @@ body, html{
 
 }
 
-/*Header*/
+
 header{
     text-align: center;
     margin:  auto;
@@ -21,7 +21,7 @@ header{
 }
 
 /*Main*/
-main{
+form{
     background-color: #2e3240 ;
     color: white;
     
@@ -32,9 +32,8 @@ h2{
 }
 
 div{
-    margin-top: 1.5em;
-    margin-left: 10%;
-    
+    margin-top: 3em;
+    margin-left: 10%;    
 }
 
 p{
@@ -52,6 +51,11 @@ input{
     margin-top: 1em;
 }
 
-footer{
-    margin-top: 4rem;
+#submit{
+    text-align: center;
+    margin: 2em 0em 5em 10%;
+    font-size: 18px;
+    padding: .5rem 1rem;
+    border-radius: 4px none;
+
 }
