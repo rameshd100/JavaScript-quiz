@@ -11,13 +11,29 @@ body, html{
 
 header{
     text-align: center;
-    margin:  auto;
     color: white;
     height: 15rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-shadow: -3px 4px 13px #000000;
     
+}
+
+.result{
+    display: none;
+
+}
+.container-lead{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 2em;
+    color: white;
+    text-shadow: -3px 4px 13px #000000;
+}
+
+span{
+    font-size: 4rem;
 }
 
 /*Main*/
@@ -28,18 +44,20 @@ form{
 }
 h2{
     margin-left: 10%;
-    padding-top: 1em;
+    padding-top: 2em;
+    font-size: 26px;
+    text-shadow: -3px 4px 13px #000000;
 }
 
-div{
+.qd{
     margin-top: 3em;
     margin-left: 10%;    
 }
 
-p{
+.pq{
     font-size: 20px;
     margin-bottom: .5em;
-    
+    text-shadow: -3px 4px 13px #000000;
 }
 
 label{
@@ -57,5 +75,5 @@ input{
     font-size: 18px;
     padding: .5rem 1rem;
     border-radius: 4px none;
-
+    text-shadow: -3px 4px 13px #000000;
 }
